@@ -3,7 +3,7 @@ STARTPACK:All-Consuming Hunger Default
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
 
 
-STARTPACK:Annihilator Hunger Default
+STARTPACK:Annihilator Default
 STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10
 ABILITY:CATEGORY=FEAT|Alertness
 ABILITY:CATEGORY=FEAT|Blind-Fight
@@ -105,5 +105,20 @@ ABILITY:CATEGORY=FEAT|Weapon Focus (bite)
 
 
 
+
+###Block: Region Kits
+
+# Gloaming Choices
+STARTPACK:Studded Leather and 20 Arrows					EQUIPBUY:0		VISIBLE:YES	APPLY:PERMANENT
+GEAR:Studded Leather								SIZE:PC
+GEAR:Arrow (20)
+
+STARTPACK:Wand of Magic Missile and Wand of Color Spray					EQUIPBUY:0		VISIBLE:YES	APPLY:PERMANENT
+GEAR:Wand (Magic Missile/1st level caster)			EQMOD:SPL_CHRG|SPELLNAME[Magic Missile]SPELLLEVEL[1]CASTERLEVEL[1]CHARGES[10]
+GEAR:Wand (Color Spray)							EQMOD:SPL_CHRG|SPELLNAME[Color Spray]SPELLLEVEL[1]CASTERLEVEL[1]CHARGES[10]
+
+STARTPACK:Scroll of Knock and Scroll of Invisibility					EQUIPBUY:0		VISIBLE:YES	APPLY:PERMANENT
+GEAR:Scroll (Knock)								
+GEAR:Scroll (Invisibility)
 
 
